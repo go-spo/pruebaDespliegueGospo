@@ -15,5 +15,3 @@ docker run -d -p 80:8080 --net=red_docker --ip 192.168.1.68 --name gospo -v /opt
 docker run -d -p 3306:3306 --net=red_docker --ip 192.168.1.69 --name gospo-mysql -v /opt/gospo/mysql:/var/lib/mysql -v /opt/gospo/database:/database  -e MYSQL_ROOT_PASSWORD=root mysql
 cd database
 ./import.sh
-
-chmod +x import.sh
