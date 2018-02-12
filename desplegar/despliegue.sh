@@ -5,8 +5,8 @@ cd ..
 mkdir www
 mkdir database
 mkdir mysql
-cp -r /opt/gospo/gospo/database/* /opt/gospo/mysql
-cp -r /opt/gospo/gospo/* /opt/gospo/www
+cp -r /opt/gospo/pruebaDespliegueGospo/database/* /opt/gospo/mysql
+cp -r /opt/gospo/pruebaDespliegueGospo/* /opt/gospo/www
 cd www
 rm -rf database
 rm -rf docs
